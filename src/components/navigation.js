@@ -24,9 +24,12 @@ export default function Navigation() {
     <nav className="site-navigation">
       <span>Langauge Keepers</span>
       <ul>
-        <li>
-          
-        </li>
+        {navLinks.map((link, index) => (
+          <li key={index}>
+            {link.title}
+          </li>
+        ))
+        }
       </ul>
     </nav>
   );
