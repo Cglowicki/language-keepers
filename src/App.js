@@ -1,11 +1,14 @@
 import React from 'react';
 import Navigation from './components/navigation';
+import { BrowserRouter as Router, Swtich, Route, Redirect } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Navigation />
-    </div>
+    <Router>
+      <div className="App">
+        <Navigation />
+      </div>
+    </Router>
   );
 }
 
