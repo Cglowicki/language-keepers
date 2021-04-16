@@ -17,5 +17,5 @@ export default function PageRenderer () {
     params: { page }
   } = useRouteMatch()
 
-  return generatePage();
+  return generatePage(page);
 }
