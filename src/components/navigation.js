@@ -27,7 +27,7 @@ export default function Navigation() {
   return (
     <nav className="site-navigation">
       <span className="menu-title">Langauge Keepers</span>
-      <div className="menu-content-container">
+      <div className={`menu-content-container ${menuActive && 'active'}`}>
         <ul>
           {navLinks.map((link, index) => (
             <li key={index}>
@@ -36,8 +36,8 @@ export default function Navigation() {
           ))
           }
         </ul>
-        <i className="fas fa-bars" onClick={() => setMenuActive(!menuActive)} />
       </div>
+      <i className="fas fa-bars" onClick={() => setMenuActive(!menuActive)} />
     </nav>
   );
 } 
