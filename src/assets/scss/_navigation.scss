@@ -48,6 +48,16 @@
         color: $text-link;
       }
     }
+  }
+}
 
+@media screen and (max-width: 900px) {
+  .site-navigation {
+    .menu-content-container {
+
+      .fa-bars {
+        display: flex;
+      }
+    }
   }
 }
