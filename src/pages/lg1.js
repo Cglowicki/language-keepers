@@ -5,7 +5,6 @@ import lg1 from './langGuide/LG1.pdf';
 export default function LangGuide1() {
   return (
     <Document file={lg1}>
-      <Page pageNumber={1} />
     </Document>
   );
 }

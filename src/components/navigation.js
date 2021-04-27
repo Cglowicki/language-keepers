@@ -20,9 +20,14 @@ const navLinks = [
     path: '/languageGuides'
   },
   {
-    title:'LG1',
-    path:'/lg1'
+    title:'Look',
+    path:'/look'
+  },
+  {
+    title:'Test',
+    path:'/test'
   }
+
 ];
 
 export default function Navigation() {
