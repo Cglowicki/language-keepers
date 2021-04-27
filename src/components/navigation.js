@@ -15,8 +15,8 @@ const navLinks = [
     path: '/listen'
   },
   {
-    title: 'Guest Book',
-    path: '/guestbook'
+    title: 'Language Guides',
+    path: '/languageguides'
   }
 ];
 
