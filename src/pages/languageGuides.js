@@ -1,7 +1,22 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-export default function LanguageGuides () {
+const langGuideLinks = [
+  {
+    title: 'Language Guide 1',
+    path: '/lg1'
+  }
+];
+
+export default function LanguageGuides() {
   return (
-    <div>link to lgs</div>
-  )
+    <ul className="lang-guides">
+      {langGuideLinks.map((link, index) => (
+        <li key={index}>
+          <Link to={link.path}>{link.title}</Link>
+        </li>
+      ))
+      }
+    </ul>
+  );
 }
