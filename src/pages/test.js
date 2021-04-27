@@ -1,10 +1,12 @@
 import React from 'react';
+//import SamplePDF from '../assets/files/LG1.pdf';
 
-export default function Test() {
+const testPDF = () => {
   return (
-    <div className="just-a-test">
-      <p>test</p>
-      <a href="https://www.youtube.com/watch?v=rJdHvKWvk3Q">test</a>
+    <div className="test-pdf">
+      {/* <SamplePDF /> */}
     </div>
   );
 }
+
+export default testPDF;
