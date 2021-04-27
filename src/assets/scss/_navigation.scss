@@ -54,6 +54,7 @@
 @media screen and (max-width: 900px) {
   .site-navigation {
     .menu-content-container {
+      z-index: 20;
       width: 300px;
       height: calc(100% - 65px);
       background: white;
