@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const langGuideLinks = [
   {
     title: 'Language Guide 1',
-    path: '/lg1'
+    path: '/languageGuides/lg1'
   }
 ];
 

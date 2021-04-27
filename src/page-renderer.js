@@ -1,5 +1,5 @@
 import React from 'react';
-import {useRouteMatch} from 'react-router-dom';
+import { useRouteMatch } from 'react-router-dom';
 
 const generatePage = page => {
   const component = () => require(`./pages/${page}`).default
@@ -8,11 +8,11 @@ const generatePage = page => {
     return React.createElement(component())
   } catch (err) {
     console.warn(err);
-    return React.createElement(() => 404);
+    return React.createElement(() => "XD");
   }
 }
 
-export default function PageRenderer () {
+export default function PageRenderer() {
   const {
     params: { page }
   } = useRouteMatch()
