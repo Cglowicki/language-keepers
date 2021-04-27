@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default function LanguageGuides () {
+export default function LanguageGuide () {
   return (
-    <div>Language Guides</div>
+    <div>LG1</div>
   );
 }
