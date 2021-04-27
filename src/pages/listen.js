@@ -9,7 +9,6 @@ import wii from '../assets/songs/wii.mp3';
 import wikana from '../assets/songs/wikana.mp3';
 import woodpecker from '../assets/songs/woodpecker.mp3';
 
-
 export default function Listen() {
 
   const songs = [entry, bowArrow, bowArrow2, emchikla, paddleSong, wii, wikana, woodpecker];
