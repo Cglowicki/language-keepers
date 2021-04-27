@@ -16,7 +16,11 @@ const navLinks = [
   },
   {
     title: 'Language Guides',
-    path: '/languageguides'
+    path: '/lg'
+  },
+  {
+    title: 'Test',
+    path: '/test'
   }
 ];
 
